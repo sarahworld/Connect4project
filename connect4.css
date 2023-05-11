@@ -1,0 +1,57 @@
+/* game board table */
+
+#dash input {
+  background-color:bisque;
+  width:20%;
+  height:20%;
+  padding:10px 10px 10px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+#dash label {
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#dash button {
+  width:150px;
+  padding:10px 10px 10px 10px;
+  background-color: brown;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+}
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+/* 
+.piece.p1 {
+  background-color: red;
+}
+
+.piece.p2 {
+  background-color: blue;
+} */
+
+/* column-top is table row of clickable areas for each column */
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: gold;
+}
